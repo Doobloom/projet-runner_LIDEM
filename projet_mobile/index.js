@@ -12,6 +12,7 @@ var GAME = {
   speed : 5
 };
 
+//un commentaire
 var score = 0
 
 function init(){
