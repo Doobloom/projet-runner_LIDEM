@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<link rel="stylesheet" href="index.css">
+		<title>Runner</title>
+	</head>
+	<body>
+		<div id='start'>Start</div>
+		<div id="score">Score :  </div>
+		<div id="fin"> Score final : <div id="nbscore"></div> Reessayer ?<br> <img src="replay.png" alt="replay icon" width="42" height="42"></img></div>
+		<div>
+			<canvas id="perso" width="640" height="320"></canvas>
+			<canvas id="bg" width="640" height="320"></canvas>
+			<canvas id="sol" width="640" height="320"></canvas>
+		</div>
+		<script src="jquery.js"></script>
+		<script src="Background.js"></script>
+		<script src="obstacle.js"></script>
+		<script src="Perso.js"></script>
+		<script src="sol.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>

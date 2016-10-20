@@ -1,0 +1,16 @@
+-penser à chercher un sprite de personnage pour l'appliquer au projet
+-penser à faire un key-hold pour avoir une hauteur de saut de base et la hauteur du saut augmente en fonction de la durée du key-hold.
+
+if(time(keyhold)<=maxtime(keyhold)){
+	var velocity = 14;
+		var gravity = 0.5;
+		var jumpInterval = setInterval(function(){
+			velocity -= gravity;
+			_this.y-=velocity;
+			if(_this.y >= _this.ground){
+				_this.isJumping = false;
+				clearInterval(jumpInterval);
+			}
+		}, 12);
+}
+else if( je sais pas)
